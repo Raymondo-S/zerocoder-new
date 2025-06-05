@@ -16,7 +16,7 @@ label.pack() # Сохранение текста в окне
 entry = tk.Entry(root) # Поле для ввода данных
 entry.pack() # Сохранение поля для ввода данных в окне
 
-button = tk.Button(root, text=f'Жми для приветствия!', command=on_board) # Кнопка для отработки запроса
+button = tk.Button(root, text=f'Нажми для приветствия!', command=on_board) # Кнопка для отработки запроса
 button.pack() # Сохранение кнопки в окне
 
 exit_button = tk.Button(root, text="Выход", command=exit_program) # Кнопка выхода из программы
